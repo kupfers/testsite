@@ -1,0 +1,89 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <style>
+    
+    body {
+        font-family: verdana;
+        background: #ccc;
+        margin: 3em;
+        font-size: 13px;
+    }
+    
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2em;
+    }
+    
+    @media only screen and (max-width: 60em) {
+        section {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media only screen and (max-width: 40em) {
+        section {
+            grid-template-columns: 1fr;
+        }
+    }
+    
+
+    div {
+        min-width: 100px;
+        
+    }
+    
+    img {
+        width: 100%;
+        border: 1px solid #AAA;
+
+    }
+    
+    div p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    h1 {
+        margin-bottom: 2em;
+    }
+    h1 img {
+        border: 0;
+        opacity: .15;
+    }
+    h1 img:hover {
+        border: 0;
+        opacity: .25;
+    }
+    
+    </style>   
+
+    <title>Pixelfont Werkstatt</title>
+
+</head>
+
+<body>
+
+    <h1><img src="images/title-sketch.svg" alt="Pixelfont Werkstatt" /></h1>
+
+    <section>
+    
+
+        <div> <img src="images/myGlyph.gif" /> <p> Firstname Lastname</p> </div>
+        <div> <img src="images/myGlyph.gif" /> <p> Firstname Lastname</p> </div>
+        <div> <img src="images/myGlyph.gif" /> <p> Firstname Lastname</p> </div>
+        <div> <img src="images/myGlyph.gif" /> <p> Firstname Lastname</p> </div>
+        <div> <img src="images/myGlyph.gif" /> <p> Firstname Lastname</p> </div>
+
+        <!-- Add your new line here -->    
+    
+    
+    </section>
+
+</body>
+
+
+</html>
